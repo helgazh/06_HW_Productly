@@ -142,6 +142,10 @@ article{
 .start p{
     padding-bottom: 20px;
 }
+.tools{
+    background: url(../images/bg.svg);
+    background-repeat: no-repeat;
+}
 .tools img{
     margin-bottom: 30px;
 }
@@ -163,6 +167,19 @@ article{
 }
 .managers img + div{
     margin-left: 125px;
+}
+.managers ul li + li{
+    margin-top: 30px;
+}
+.managers ul li{
+    position: relative;
+    left: 65px;
+}
+.managers ul li::before{
+    content: url(../images/checkbox.svg);
+    position: absolute;
+    left: -70px;
+    top: -5px;
 }
 .marketers div + img{
     margin-left: 174px;
